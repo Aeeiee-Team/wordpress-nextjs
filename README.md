@@ -1,21 +1,60 @@
-# Next.js + Tailwind CSS Example
+# WordPress Headless CMS + NextJS 
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This repo contains the FrontEnd of an application that uses WordPress as a Headless CMS. 
 
-## Deploy your own
+## Built With
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+- React
+- WordPress
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Demo
 
-## How to use
+![picture-demo](./screenshot.png)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Getting Started
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+**To get started, follow the instructions below**
+
+To get a local copy up and running follow these simple example steps.
+
+- Setup and run the API by following the blog post [here]()
+- Switch out the constants in the `lib/constants.js` file with the correct URLs to your WordPress Server.
+
+For the frontend:
+
+- run
+
+```
+yarn install
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+to install all packages. then
+
+```
+yarn dev
+```
+
+- to start the app in the browser.
+
+### Prerequisites
+
+- Node^8.0
+
+
+## Authors
+
+👤 **Adebola**
+
+- Github: [@githubhandle](https://github.com/onedebos)
+- Twitter: [@twitterhandle](https://twitter.com/debosthefirst)
+- Linkedin: [linkedin](https://www.linkedin.com/in/adebola-niran/)
+
+
+## Acknowledgments
+
+Images by 
+- 
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
