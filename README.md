@@ -4,7 +4,7 @@ This repo contains the FrontEnd of an application that uses WordPress as a Headl
 
 ## Built With
 
-- React
+- React (Next.js)
 - WordPress
 
 ## Demo
@@ -17,7 +17,7 @@ This repo contains the FrontEnd of an application that uses WordPress as a Headl
 
 To get a local copy up and running follow these simple example steps.
 
-- Setup and run the API by following the blog post [here]()
+- Setup and run the WordPress server by following the blog post [here]()
 - Switch out the constants in the `lib/constants.js` file with the correct URLs to your WordPress Server.
 
 For the frontend:
