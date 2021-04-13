@@ -29,8 +29,12 @@ export default function Post({ post }) {
 
   return (
     <div>
-      <img className="excerpt-img mb-5" src={postImgAndAuthor ? postImgAndAuthor.featImgUrl : '/aeeiee-logo.png'} />
-      <Link href={`/post/${post.id}`}><a className="text-4xl font-bold">{post.title.rendered}</a></Link>
+      <Link href={`/post/${post.id}`}>
+        <a className="text-4xl font-bold">
+          <img className="excerpt-img mb-5" src={postImgAndAuthor ? postImgAndAuthor.featImgUrl : '/aeeiee-logo.png'} />
+          {post.title.rendered}
+        </a>
+      </Link>
       <h4>{new Date(post.date).toDateString()}</h4>
       <div className="mt-2 relative">
         <div className="mb-2 max-w-lg">{parse(post.excerpt.rendered)}</div>

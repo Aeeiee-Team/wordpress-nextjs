@@ -2,23 +2,7 @@ import Head from 'next/head';
 import Post from '../components/Post';
 import Footer from '../components/Footer';
 
-import { useState, useEffect } from 'react';
-import { getAllPostsFromServer, getAuthor, getFeaturedImage } from '../lib/utils';
-
-export default function Home() {
-  const [posts, setPosts] = useState([]);
-
-  useEffect(async () => {
-    let mounted = true;
-
-    if (mounted) {
-      const postsFromServer = await getAllPostsFromServer();
-      setPosts(postsFromServer);
-    }
-
-    return () => (mounted = false);
-  }, []);
-
+export default function Home({ posts }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>

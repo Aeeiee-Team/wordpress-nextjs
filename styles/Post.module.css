@@ -1,0 +1,16 @@
+
+.post h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.post p{
+    margin-top: 5px;
+}
+
+.post a{
+    color: blue;
+}
+
+
